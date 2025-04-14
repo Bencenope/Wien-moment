@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(166, 205, 220);
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: lightblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(234, 234, 207);
+    color: rgb(100, 174, 198);
+}
+
+header {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+#schnitzel{
+    float: right;
+    width: 500px;
+    padding-right: 150px;
+    height: 500px;
+}
+#valami{
+    float: right;
+    padding-right: 150px;
+}

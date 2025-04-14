@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(208, 230, 238);
+}
+table{
+    background-color: beige;
+    width: 75%;/*content tarolo elem fele lesz*/
+    height: 150%;
+    margin-left: auto;/*tablazat kozepre igazitasa*/
+    margin-right: auto;
+    margin-bottom: 20px;/*tablazat alatti terkoz 20px*/
+    border: 1px solid black;
+    font-size: 150%;
+
+}
+th,td{/*tablazat cellainak beallitasa*/
+    padding: 5px 10px;/*visszintes irany 10px fuggoleges 5px*/
+    font-size: 150%;
+
+}
+tr:nth-child(odd){/*a tablazat paratlan sorai*/
+    background-color: (255 255 255/1);/*60%attetszo*/
+}
+tr:nth-child(even){/*a tablazat paros sorai*/
+    background-color: rgba(255 255 255/1);/*20%attetszo*/
+}
+tr:first-child{/*tablazat elso soranak beallitasa*/
+    background-color: rgba(41 58 68/0.7);
+    color: white;/*betuszin*/
+    font-variant: small-caps;
+    font-size: 1.2rem;/*eredeti betumerethez kepest 20% nagyobb*/
+    height: 30px;/*cella magassaga 30px*/
+}
+body {
+    background-color: rgb(166, 205, 220);
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: lightblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(234, 234, 207);
+    color: rgb(100, 174, 198);
+}
+header {
+    font-size: 50px;
+}
+h1{
+    font-size: 50px;
+}

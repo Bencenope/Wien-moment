@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(166, 205, 220);
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: lightblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(234, 234, 207);
+    color: rgb(54, 173, 212);
+}
+
+#pictureone {
+    width: 500px;
+    display: block;
+    float: right;
+    height: 200px;
+}
+
+#ceg {
+    width: 700px;
+    max-width: 700px;
+    float: left;
+    padding-left: 10px;
+    font-size: large;
+    line-height: 28px;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+#becs {
+    width: 700px;
+    max-width: 700px;
+    float: left;
+    padding-left: 10px;
+    font-size: large;
+    line-height: 28px;
+}
+
+header {
+    font-size: 50px;
+}
+
+#csajos {
+    float: left;
+    padding-bottom: 10px;
+}
+
+#családi {
+    float: left;
+}
+
+h4 {
+    padding-top: 10px;
+}
+h3{
+    font-size: 30px;
+}
